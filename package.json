@@ -1,0 +1,35 @@
+{
+  "name": "biketail_server",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build-run": "cd client && npm run build && cd .. && node server.js",
+    "watch": "nodemon server.js",
+    "start-chat": "node client/src/components/js/chat/index.js",
+    "start-all": "npm run start & npm run start-chat"
+  },
+  "proxy": "http://localhost:5000",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "cloudinary": "^1.4.2",
+    "connect-mongo": "^4.6.0",
+    "connect-multiparty": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.4.1",
+    "mongoose": "^5.12.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.4.0"
+  }
+}

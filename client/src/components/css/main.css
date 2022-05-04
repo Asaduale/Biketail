@@ -1,0 +1,34 @@
+.linkContainer {
+  text-align: center;
+}
+.linkContainer a {
+  text-decoration: none;
+  color: #0051c3;
+}
+
+.linkContainer a:visited {
+  color: #0051c3;
+}
+
+.linkContainer a:hover {
+  color: black;
+}
+
+.auth h3,
+.auth h6 {
+  text-align: center;
+  color: #0051c3;
+}
+
+.auth button {
+  background-color: #0051c3;
+}
+
+.auth button:hover {
+  background-color: navy;
+}
+
+.search-bar input {
+  font-size: xx-large;
+  font-family: "Monaco";
+}

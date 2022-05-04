@@ -1,0 +1,16 @@
+.listings-container {
+  margin: 30px;
+}
+
+.listings-container h3 {
+  font-family: "Monaco";
+  text-align: center;
+  margin: 30px;
+  color: navy;
+}
+
+
+.bikeAdminImages {
+  max-height: 250px;
+  max-width: 345px;
+}

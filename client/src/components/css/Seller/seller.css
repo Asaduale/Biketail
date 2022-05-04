@@ -1,0 +1,112 @@
+h2, h3, p {
+    text-align: left;
+}
+
+.no-option-selected {
+    width: 70%;
+    position: absolute;
+    margin: 50px auto; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%); 
+}
+
+.option-selected {
+    width: 70%;
+    position: relative;
+    margin: 30px auto;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    display: grid;
+    /* grid-template-rows: auto auto auto; */
+    gap: 20px;
+}
+
+.section-header {
+    border: 1px solid blue;
+    border-radius: 10px;
+    text-align: left;
+    /* height: 50px; */
+    padding: 0 15px;
+    /* line-height: 50px; */
+}
+
+.section {
+    border: 1px solid blue;
+    border-radius: 7px;
+    padding: 0 15px 20px;
+    margin-bottom: 30px;
+}
+
+.overview {
+    display: grid;
+    gap: 10px;
+}
+
+.type-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.sell-method-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.slider-container {
+    width: 90%;
+    margin: auto;
+}
+
+.select-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+}
+
+.brand-container {
+    width: 100%;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.places-container {
+    margin-bottom: 30px;
+}
+
+.trip-dates {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pricing-block {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 4fr 2fr;
+}
+
+.pricing-block .description {
+    font-style: italic;
+}
+
+.submit-button button {
+    background-color: navy;
+    color: white;
+    width: 300px;
+}
+
+.submit-button button:hover {
+    background-color: blue;
+    /* color: black; */
+    width: 300px;
+}

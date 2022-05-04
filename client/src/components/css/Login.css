@@ -1,0 +1,15 @@
+.linkContainer {
+  text-align: center;
+}
+.linkContainer a {
+  text-decoration: none;
+  color: #0051c3;
+}
+
+.linkContainer a:visited {
+  color: #0051c3;
+}
+
+.linkContainer a:hover {
+  color: black;
+}

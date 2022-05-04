@@ -1,0 +1,10 @@
+.account {
+    max-width: 90%;
+    margin: 40px auto;
+}
+
+.account-buttons {
+    display: grid;
+    gap: 10px;
+    width: 400px;
+}

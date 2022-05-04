@@ -1,0 +1,54 @@
+.portal {
+    max-width: 90%;
+    margin: 40px auto;
+}
+
+.bike-options {
+    /* width: 20%; */
+    display: grid;
+    gap: 10px;
+}
+
+.portal-items {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 4fr;
+}
+
+.portal-expand {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: grid;
+    /* gap: 10px; */
+    grid-template-columns: 2fr 3fr;
+}
+
+.timeline {
+    /* margin: 30px auto; */
+    width: 100%;
+}
+
+.portal-content {
+    display: grid;
+    height: 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    gap: 10px;
+    margin: auto 40px;
+}
+
+.portal-content .rented-to {
+    grid-column: 1/-1;
+    margin: 5px 0;
+}
+
+.portal-content .portal-content-box {
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+.portal-content .portal-content-box .text {
+    position: relative;
+}

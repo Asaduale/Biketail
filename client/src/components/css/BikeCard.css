@@ -1,0 +1,29 @@
+.bike-card-container {
+  padding: 30px;
+}
+
+.bike-card-link a:visited {
+  text-decoration: none;
+  color: #0051c3;
+}
+
+.bike-card-container a {
+  text-decoration: none;
+  color: #0051c3;
+}
+
+.bike-prices {
+  color: #0051c3;
+}
+
+.favorite-icon {
+  color: #ed4b82;
+}
+
+.edit-icon {
+  color: #0051c3;
+}
+
+.delete-icon {
+  color: #f44336;
+}
